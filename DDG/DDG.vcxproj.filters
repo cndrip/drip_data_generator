@@ -35,28 +35,40 @@
     </QtRcc>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\DDG.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\main.cpp">
+    <ClCompile Include="src\About.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\AfCd_Win32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DDG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="src\About.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
     <QtMoc Include="src\DDG.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
+    <QtUic Include="src\About.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
     <QtUic Include="src\DDG.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\AfCd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GBK.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

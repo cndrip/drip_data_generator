@@ -115,18 +115,22 @@
     <QtRcc Include="DDG.qrc" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\About.cpp" />
     <ClCompile Include="src\AfCd_Win32.cpp" />
     <ClCompile Include="src\DDG.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="src\DDG.h" />
+    <QtMoc Include="src\About.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtUic Include="src\About.ui" />
     <QtUic Include="src\DDG.ui" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\AfCd.h" />
+    <QtMoc Include="src\DDG.h" />
+    <ClInclude Include="src\GBK.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
