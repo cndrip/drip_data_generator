@@ -71,5 +71,14 @@
     <ClInclude Include="src\GBK.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DDG.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\datag.ico" />
   </ItemGroup>
 </Project>

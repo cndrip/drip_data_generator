@@ -16,6 +16,10 @@
   <property name="windowTitle">
    <string>水滴数据生成器Ver 1.0</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="../DDG.qrc">
+    <normaloff>:/DDG/Resources/datag.ico</normaloff>:/DDG/Resources/datag.ico</iconset>
+  </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">

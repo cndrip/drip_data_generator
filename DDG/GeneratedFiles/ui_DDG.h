@@ -71,6 +71,9 @@ public:
             DDGClass->setObjectName(QStringLiteral("DDGClass"));
         DDGClass->resize(593, 494);
         DDGClass->setContextMenuPolicy(Qt::NoContextMenu);
+        QIcon icon;
+        icon.addFile(QStringLiteral(":/DDG/Resources/datag.ico"), QSize(), QIcon::Normal, QIcon::Off);
+        DDGClass->setWindowIcon(icon);
         centralWidget = new QWidget(DDGClass);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         groupBox = new QGroupBox(centralWidget);
